@@ -180,8 +180,8 @@ html, body {
 		-webkit-transform: translate(900px, 0);
 		        transform: translate(900px, 0);
     	opacity: 0;
-    	-webkit-transition: all .8s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */;
-    	transition:all .8s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */;
+    	-webkit-transition: all .8s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */
+    	transition:all .8s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */
     	will-change: transform, opacity;
 	}
 		.article_text h1{
@@ -263,12 +263,13 @@ html, body {
 		left: 50%;
 		-webkit-transform: translate(-1000px, 0);
 		        transform: translate(-1000px, 0);
-		-webkit-transition: all .5s ease-in-out;
-		transition: all .5s ease-in-out;
+		-webkit-transition: all .5s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */
+		transition: all .5s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */;
 		opacity: 0;
 		z-index: 9999;
 		position: fixed;
 		will-change: transform, opacity;
+		box-shadow: 4px 4px 7px rgba(100, 100, 100, .6);
 	}
 
 
@@ -420,7 +421,7 @@ html, body {
 			        transform: translate(-500px, 0);
 			opacity: 0;
 			-webkit-transition: all 0.8s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */;
-			transition: all 0.8s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */;
+			transition: all 0.8s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */
 			will-change: transform, opacity;
 		}
 		.advantages_text{
@@ -430,7 +431,7 @@ html, body {
 			        transform: translate(500px, 0);
 			opacity: 0;
 			-webkit-transition: all 0.8s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */;
-			transition: all 0.8s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */;
+			transition: all 0.8s cubic-bezier(0.595, 1.650, 0.685, 0.775); /* custom */
 			will-change: transform, opacity;
 		}
 	.advantages_trigger{
